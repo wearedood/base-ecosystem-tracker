@@ -1,0 +1,61 @@
+{
+  "name": "base-ecosystem-tracker",
+  "version": "1.0.0",
+  "description": "A comprehensive analytics dashboard for tracking Base ecosystem DeFi protocols, TVL metrics, yield farming opportunities, and protocol performance across the Base blockchain",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "test": "jest",
+    "analyze": "node scripts/analyze-protocols.js"
+  },
+  "keywords": [
+    "base",
+    "defi",
+    "analytics",
+    "tvl",
+    "yield-farming",
+    "blockchain",
+    "ethereum",
+    "l2",
+    "coinbase"
+  ],
+  "author": "wearedood",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^6.8.0",
+    "web3": "^4.2.0",
+    "axios": "^1.6.0",
+    "recharts": "^2.8.0",
+    "tailwindcss": "^3.3.0",
+    "@headlessui/react": "^1.7.0",
+    "@heroicons/react": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "lodash": "^4.17.21",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.2.0",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "jest": "^29.7.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wearedood/base-ecosystem-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wearedood/base-ecosystem-tracker/issues"
+  },
+  "homepage": "https://github.com/wearedood/base-ecosystem-tracker#readme"
+}
